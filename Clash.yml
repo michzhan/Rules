@@ -148,11 +148,20 @@ Rule:
 
 ### Youtube
 - DOMAIN-KEYWORD,youtube,Youtube
+- DOMAIN-KEYWORD,google,Youtube
+- DOMAIN-SUFFIX,google.com,Youtube
+- DOMAIN-SUFFIX,youtube.com,Youtube
+- DOMAIN-SUFFIX,googleapis.com,Youtube
+- DOMAIN-SUFFIX,ggpht.com,Youtube
+- DOMAIN-SUFFIX,goo.gl.com,Youtube
+- DOMAIN-SUFFIX,gstatic.com,Youtube
 - DOMAIN-SUFFIX,googlevideo.com,Youtube
 - DOMAIN-SUFFIX,ytimg.com,Youtube
 - DOMAIN-SUFFIX,yt.be,Youtube
 - DOMAIN-SUFFIX,youtu.be,Youtube
+- DOMAIN-SUFFIX,gvt1.com,Youtube
 - DOMAIN-SUFFIX,gvt2.com,Youtube
+- DOMAIN-SUFFIX,gvt3.com,Youtube
 
 # Netflix
 - DOMAIN-SUFFIX,netflix.com,Netflix
