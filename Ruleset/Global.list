@@ -1,4 +1,8 @@
 # > Microsoft OneDrive
+PROCESS-NAME,OneDrive
+PROCESS-NAME,OneDriveUpdater
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,1drv.com
