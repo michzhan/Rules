@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 # > Other google products
+USER-AGENT,*hangouts*
+USER-AGENT,Hangouts*
+USER-AGENT,*GVDialer*
+USER-AGENT,*VoiceAPP*
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
 DOMAIN-SUFFIX,google.com
