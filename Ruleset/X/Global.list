@@ -1,6 +1,6 @@
 # > Microsoft OneDrive
-PROCESS-NAME,OneDrive,proxy
-PROCESS-NAME,OneDriveUpdater,proxy
+;PROCESS-NAME,OneDrive,proxy
+;PROCESS-NAME,OneDriveUpdater,proxy
 USER-AGENT,OneDrive*,proxy
 USER-AGENT,OneDriveiOSApp*,proxy
 DOMAIN-SUFFIX,onedrive.live.com,proxy
