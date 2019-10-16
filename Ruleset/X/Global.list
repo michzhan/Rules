@@ -1,0 +1,47 @@
+# > Microsoft OneDrive
+PROCESS-NAME,OneDrive,proxy
+PROCESS-NAME,OneDriveUpdater,proxy
+USER-AGENT,OneDrive*,proxy
+USER-AGENT,OneDriveiOSApp*,proxy
+DOMAIN-SUFFIX,onedrive.live.com,proxy
+DOMAIN-SUFFIX,xboxlive.com,proxy
+DOMAIN-SUFFIX,1drv.com,proxy
+DOMAIN-SUFFIX,1drv.ms,proxy
+DOMAIN-SUFFIX,blob.core.windows.net,proxy
+DOMAIN-SUFFIX,livefilestore.com,proxy
+DOMAIN-SUFFIX,onedrive.com,proxy
+DOMAIN-SUFFIX,storage.live.com,proxy
+DOMAIN-SUFFIX,storage.msn.com,proxy
+DOMAIN,oneclient.sfx.ms,proxy
+# > Facebook
+DOMAIN-SUFFIX,cdninstagram.com,proxy
+DOMAIN-SUFFIX,fb.com,proxy
+DOMAIN-SUFFIX,fb.me,proxy
+DOMAIN-SUFFIX,fbaddins.com,proxy
+DOMAIN-SUFFIX,fbcdn.net,proxy
+DOMAIN-SUFFIX,fbsbx.com,proxy
+DOMAIN-SUFFIX,fbworkmail.com,proxy
+DOMAIN-SUFFIX,instagram.com,proxy
+DOMAIN-SUFFIX,m.me,proxy
+DOMAIN-SUFFIX,messenger.com,proxy
+DOMAIN-SUFFIX,oculus.com,proxy
+DOMAIN-SUFFIX,oculuscdn.com,proxy
+DOMAIN-SUFFIX,rocksdb.org,proxy
+DOMAIN-SUFFIX,whatsapp.com,proxy
+DOMAIN-SUFFIX,whatsapp.net,proxy
+DOMAIN-KEYWORD,facebook,proxy
+IP-CIDR,3.123.36.126/32,proxy
+IP-CIDR,52.58.209.134/32,proxy
+IP-CIDR,54.93.124.31/32,proxy
+IP-CIDR,54.173.34.141/32,proxy
+IP-CIDR,54.235.23.242/32,proxy
+IP-CIDR,169.45.248.118/32,proxy
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv,proxy
+DOMAIN-SUFFIX,periscope.tv,proxy
+DOMAIN-SUFFIX,t.co,proxy
+DOMAIN-SUFFIX,twimg.co,proxy
+DOMAIN-SUFFIX,twimg.com,proxy
+DOMAIN-SUFFIX,twitpic.com,proxy
+DOMAIN-SUFFIX,vine.co,proxy
+DOMAIN-KEYWORD,twitter,proxy
