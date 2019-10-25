@@ -45,3 +45,9 @@ DOMAIN-SUFFIX,twimg.com,proxy
 DOMAIN-SUFFIX,twitpic.com,proxy
 DOMAIN-SUFFIX,vine.co,proxy
 DOMAIN-KEYWORD,twitter,proxy
+# > TikTok
+USER-AGENT,TikTok*,proxy
+DOMAIN-SUFFIX,musical.ly,proxy
+DOMAIN-SUFFIX,tiktokv.com,proxy
+DOMAIN-SUFFIX,tiktokcdn.com,proxy
+DOMAIN-KEYWORD,-tiktokcdn-com,proxy
