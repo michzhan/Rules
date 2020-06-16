@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,vine.co,proxy
 DOMAIN-KEYWORD,twitter,proxy
 # > TikTok
 USER-AGENT,TikTok*,proxy
+DOMAIN-SUFFIX,muscdn.com,proxy
 DOMAIN-SUFFIX,musical.ly,proxy
 DOMAIN-SUFFIX,tiktokv.com,proxy
 DOMAIN-SUFFIX,tiktokcdn.com,proxy
