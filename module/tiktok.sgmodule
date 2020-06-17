@@ -1,4 +1,4 @@
-#!name=TikTok Unlock
+#!name=TikTok & Aweme Unlock
 #!desc=Remove TikTok's regional restrictions.
 #!system=ios
 
@@ -8,4 +8,8 @@
 (?<=\?version_code=)16..(?=.?.?&) 1 307
 
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.amemv.com,*.akamaized.net, *.appsflyer.com,*.muscdn.com,*.ibyteimg.com, *.app-measurement.com
+
+[Script]
+Aweme = type=http-request,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/michzhan/Rules/master/scripts/Aweme.js,script-update-interval=0
+Aweme = type=http-response,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/michzhan/Rules/master/scripts/Aweme.js,script-update-interval=0
