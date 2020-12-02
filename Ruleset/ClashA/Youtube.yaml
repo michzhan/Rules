@@ -1,7 +1,7 @@
 payload:
   # > YouTube and YouTube Music
-  - PROCESS-NAME,com.google.android.youtube
-  - PROCESS-NAME,com.google.android.youtube.tv
+  #- PROCESS-NAME,com.google.android.youtube
+  #- PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-KEYWORD,youtube
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN-SUFFIX,googlevideo.com
