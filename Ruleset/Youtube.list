@@ -1,8 +1,10 @@
 # > YouTube and YouTube Music
-USER-AGENT,com.google.ios.youtube*
+USER-AGENT,*com.google.ios.youtube*
 USER-AGENT,*youtube*
-USER-AGENT,YouTube*
+USER-AGENT,*YouTube*
+DOMAIN-KEYWORD,youtube
 DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
