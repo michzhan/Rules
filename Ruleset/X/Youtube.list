@@ -3,6 +3,7 @@ USER-AGENT,com.google.ios.youtube*,Youtube
 USER-AGENT,*youtube*,Youtube
 USER-AGENT,YouTube*,Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
+DOMAIN,yt.ggpht.com,Youtube
 DOMAIN-SUFFIX,googlevideo.com,Youtube
 DOMAIN-SUFFIX,youtube.com,Youtube
 DOMAIN-SUFFIX,ytimg.com,Youtube
@@ -12,23 +13,23 @@ DOMAIN-SUFFIX,gvt1.com,Youtube
 DOMAIN-SUFFIX,gvt2.com,Youtube
 DOMAIN-SUFFIX,gvt3.com,Youtube
 # > Other google products
-USER-AGENT,*hangouts*,Youtube
-USER-AGENT,Hangouts*,Youtube
-USER-AGENT,*GVDialer*,Youtube
-USER-AGENT,*VoiceAPP*,Youtube
-DOMAIN-KEYWORD,google,Youtube
-DOMAIN-KEYWORD,blogspot,Youtube
-DOMAIN-SUFFIX,google.com,Youtube
-DOMAIN-SUFFIX,ggpht.com,Youtube
-DOMAIN-SUFFIX,goo.gl.com,Youtube
-DOMAIN-SUFFIX,gstatic.com,Youtube
-DOMAIN-SUFFIX,gv.com,Youtube
-DOMAIN-SUFFIX,gmail.com,Youtube
-DOMAIN-SUFFIX,godoc.org,Youtube
-DOMAIN-SUFFIX,capitalg.com,Youtube
-DOMAIN-SUFFIX,certificate-transparency.org,Youtube
-DOMAIN-SUFFIX,chrome.com,Youtube
-DOMAIN-SUFFIX,chromeexperiments.com,Youtube
-DOMAIN-SUFFIX,chromestatus.com,Youtube
-DOMAIN-SUFFIX,chromium.org,Youtube
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Youtube
+# USER-AGENT,*hangouts*,Youtube
+# USER-AGENT,Hangouts*,Youtube
+# USER-AGENT,*GVDialer*,Youtube
+# USER-AGENT,*VoiceAPP*,Youtube
+# DOMAIN-KEYWORD,google,Youtube
+# DOMAIN-KEYWORD,blogspot,Youtube
+# DOMAIN-SUFFIX,google.com,Youtube
+# DOMAIN-SUFFIX,ggpht.com,Youtube
+# DOMAIN-SUFFIX,goo.gl.com,Youtube
+# DOMAIN-SUFFIX,gstatic.com,Youtube
+# DOMAIN-SUFFIX,gv.com,Youtube
+# DOMAIN-SUFFIX,gmail.com,Youtube
+# DOMAIN-SUFFIX,godoc.org,Youtube
+# DOMAIN-SUFFIX,capitalg.com,Youtube
+# DOMAIN-SUFFIX,certificate-transparency.org,Youtube
+# DOMAIN-SUFFIX,chrome.com,Youtube
+# DOMAIN-SUFFIX,chromeexperiments.com,Youtube
+# DOMAIN-SUFFIX,chromestatus.com,Youtube
+# DOMAIN-SUFFIX,chromium.org,Youtube
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Youtube
