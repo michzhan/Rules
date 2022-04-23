@@ -3,13 +3,11 @@
 #!system=ios
 
 [URL Rewrite]
+
 (?<=_region=)CN(?=&) JP 307
-(?<=&app_version=)16..(?=.?.?&) 1 307
-(?<=\?version_code=)16..(?=.?.?&) 1 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.amemv.com,*.akamaized.net, *.appsflyer.com,*.muscdn.com,*.ibyteimg.com, *.app-measurement.com
-
-[Script]
-Aweme = type=http-request,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/michzhan/Rules/master/scripts/Aweme.js,script-update-interval=0
-Aweme = type=http-response,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/michzhan/Rules/master/scripts/Aweme.js,script-update-interval=0
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
