@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,onedrive.com,proxy
 DOMAIN-SUFFIX,storage.live.com,proxy
 DOMAIN-SUFFIX,storage.msn.com,proxy
 DOMAIN,oneclient.sfx.ms,proxy
+# > LinkedIn
+USER-AGENT,LinkedIn*,proxy
 # > Meta (Facebook)
 DOMAIN-KEYWORD,facebook,proxy
 DOMAIN-SUFFIX,cdninstagram.com,proxy
@@ -42,6 +44,7 @@ IP-CIDR,54.173.34.141/32,proxy
 IP-CIDR,54.235.23.242/32,proxy
 IP-CIDR,169.45.248.118/32,proxy
 # > Twitter
+USER-AGENT,Twitter*,proxy
 DOMAIN-KEYWORD,twitter,proxy
 DOMAIN-SUFFIX,pscp.tv,proxy
 DOMAIN-SUFFIX,periscope.tv,proxy
@@ -70,3 +73,8 @@ DOMAIN-KEYWORD,-tiktokcdn-com,proxy
 DOMAIN-KEYWORD,musical.ly,proxy
 DOMAIN-KEYWORD,tiktok,proxy
 DOMAIN-KEYWORD,tiktokv,proxy
+# > Other
+USER-AGENT,WhatsApp*,proxy
+USER-AGENT,BBCNews*,proxy
+USER-AGENT,Finance*,proxy
+
