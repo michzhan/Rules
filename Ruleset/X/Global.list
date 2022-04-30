@@ -62,4 +62,11 @@ DOMAIN-SUFFIX,ibytedtos.com,proxy
 DOMAIN-SUFFIX,ipstatp.com,proxy
 DOMAIN-SUFFIX,tik-tokapi.com,proxy
 DOMAIN-SUFFIX,tiktokv.com,proxy
+DOMAIN-SUFFIX,ibyteimg.com,proxy
+DOMAIN-SUFFIX,sgpstatp.com,proxy
+DOMAIN-SUFFIX,snssdk.com,proxy
+DOMAIN-SUFFIX,tiktokv.com,proxy
 DOMAIN-KEYWORD,-tiktokcdn-com,proxy
+DOMAIN-KEYWORD,musical.ly,proxy
+DOMAIN-KEYWORD,tiktok,proxy
+DOMAIN-KEYWORD,tiktokv,proxy
