@@ -13,7 +13,8 @@ DOMAIN-SUFFIX,onedrive.com,proxy
 DOMAIN-SUFFIX,storage.live.com,proxy
 DOMAIN-SUFFIX,storage.msn.com,proxy
 DOMAIN,oneclient.sfx.ms,proxy
-# > Facebook
+# > Meta (Facebook)
+DOMAIN-KEYWORD,facebook,proxy
 DOMAIN-SUFFIX,cdninstagram.com,proxy
 DOMAIN-SUFFIX,fb.com,proxy
 DOMAIN-SUFFIX,fb.me,proxy
@@ -29,7 +30,11 @@ DOMAIN-SUFFIX,oculuscdn.com,proxy
 DOMAIN-SUFFIX,rocksdb.org,proxy
 DOMAIN-SUFFIX,whatsapp.com,proxy
 DOMAIN-SUFFIX,whatsapp.net,proxy
-DOMAIN-KEYWORD,facebook,proxy
+DOMAIN-SUFFIX,accountkit.com,proxy
+DOMAIN-SUFFIX,f8.com,proxy
+DOMAIN-SUFFIX,facebookmail.com,proxy
+DOMAIN-SUFFIX,fb.watch,proxy
+DOMAIN-SUFFIX,readyatdawn.com,proxy
 IP-CIDR,3.123.36.126/32,proxy
 IP-CIDR,52.58.209.134/32,proxy
 IP-CIDR,54.93.124.31/32,proxy
@@ -37,6 +42,7 @@ IP-CIDR,54.173.34.141/32,proxy
 IP-CIDR,54.235.23.242/32,proxy
 IP-CIDR,169.45.248.118/32,proxy
 # > Twitter
+DOMAIN-KEYWORD,twitter,proxy
 DOMAIN-SUFFIX,pscp.tv,proxy
 DOMAIN-SUFFIX,periscope.tv,proxy
 DOMAIN-SUFFIX,t.co,proxy
@@ -44,11 +50,16 @@ DOMAIN-SUFFIX,twimg.co,proxy
 DOMAIN-SUFFIX,twimg.com,proxy
 DOMAIN-SUFFIX,twitpic.com,proxy
 DOMAIN-SUFFIX,vine.co,proxy
-DOMAIN-KEYWORD,twitter,proxy
+DOMAIN-SUFFIX,tweetdeck.com,proxy
 # > TikTok
 USER-AGENT,TikTok*,proxy
 DOMAIN-SUFFIX,muscdn.com,proxy
 DOMAIN-SUFFIX,musical.ly,proxy
 DOMAIN-SUFFIX,tiktokv.com,proxy
 DOMAIN-SUFFIX,tiktokcdn.com,proxy
+DOMAIN-SUFFIX,byteoversea.com,proxy
+DOMAIN-SUFFIX,ibytedtos.com,proxy
+DOMAIN-SUFFIX,ipstatp.com,proxy
+DOMAIN-SUFFIX,tik-tokapi.com,proxy
+DOMAIN-SUFFIX,tiktokv.com,proxy
 DOMAIN-KEYWORD,-tiktokcdn-com,proxy
