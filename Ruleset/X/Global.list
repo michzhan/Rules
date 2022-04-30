@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,storage.msn.com,proxy
 DOMAIN,oneclient.sfx.ms,proxy
 # > LinkedIn
 USER-AGENT,LinkedIn*,proxy
+DOMAIN-SUFFIX,linkedin.com,proxy
 # > Meta (Facebook)
 DOMAIN-KEYWORD,facebook,proxy
 DOMAIN-SUFFIX,cdninstagram.com,proxy
