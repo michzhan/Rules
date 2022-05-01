@@ -71,6 +71,8 @@ DOMAIN-SUFFIX,storage.msn.com
 DOMAIN,oneclient.sfx.ms
 
 # > Facebook
+USER-AGENT,WhatsApp*
+USER-AGENT,Instagram*
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,f8.com
 DOMAIN-SUFFIX,facebookmail.com
@@ -100,10 +102,12 @@ IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,169.45.248.118/32,no-resolve
 
 # > Linkedin
+USER-AGENT,Linkedin*
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 
 # > Twitter
+USER-AGENT,Twitter*
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,t.co
@@ -115,3 +119,9 @@ DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-KEYWORD,twitter
+
+# Yahoo Finance
+USER-AGENT, Finance*
+
+# BBC New
+USER-AGENT, BBCNews*
